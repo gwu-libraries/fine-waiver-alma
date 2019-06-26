@@ -1,0 +1,11 @@
+institutions:
+  sandbox: 
+    api_key: l8xx32fb0adb00d84ac99599170c446cefe1
+    data_file: ./sandbox/outstanding_fines_by_user.csv
+policy_names:
+  - 42 Exact Days Loan
+  - 6 wk general loan
+  - 28 Exact Days Loan
+  - End of Term
+  - CLS - Faculty
+  - Voyager
