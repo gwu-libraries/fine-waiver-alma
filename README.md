@@ -21,7 +21,7 @@ API calls are asynchronous, throttled at 25 per second (per Ex Libris' documente
 
 ## Instructions for Use
 
-Once `config.yml` has been updated, run the script from command line as follows:
+Once `config.yml` has been updated, run the script from the command line as follows:
 <pre>
 python batch-waiver.py <i>institution_name</i> [test]
 </pre>
