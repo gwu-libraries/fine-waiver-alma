@@ -25,7 +25,7 @@ def pre_process(data, config, sandbox=False):
 	if sandbox:
 		# For testing, need to limit to fines in the sandbox
 		to_waive['Fine Fee Creation Date'] = pd.to_datetime(to_waive['Fine Fee Creation Date'])
-		to_waive = to_waive.loc[to_waive['Fine Fee Creation Date'] <= pd.to_datetime('03-01-2019')].copy()
+		to_waive = to_waive.loc[to_waive['Fine Fee Creation Date'] <= pd.to_datetime(config['sandbox_date'])].copy()
 	# Isolate just the columns we need
 	to_waive = to_waive.loc[:, ['Fine Fee Id', 'Remaining Amount', 'Primary Identifier']].copy()
 	# Rename in order to match the parameter names used by the API

@@ -1,7 +1,10 @@
 institutions:
   sandbox: 
     api_key: 
-    data_file: ./sandbox/outstanding_fines_by_user.csv
+    data_file: ./sandbox/outstanding_fines_by_user_for_api.csv
+  gwu: 
+    api_key: 
+    data_file: ./gwu/outstanding_fines_by_user.csv
 policy_names:
   - 42 Exact Days Loan
   - 6 wk general loan
@@ -9,3 +12,4 @@ policy_names:
   - End of Term
   - CLS - Faculty
   - Voyager
+sandbox_date: 03-01-2019
