@@ -23,7 +23,7 @@ API calls are asynchronous, throttled at 25 per second (per Ex Libris' documente
 
 Once `config.yml` has been updated, run the script from the command line as follows:
 <pre>
-python batch-waiver.py <i>institution_name</i> [test]
+python batch_waiver.py <i>institution_name</i> [test]
 </pre>
 The required argument _institution_name_ should match one of the keys under `institutions` in the `config.yml` file. If _institution_name_ is `sandbox` the script will waive only those fines recorded prior to or on the date of the last sandbox refresh (as defined in the `config.yml` file). 
 
